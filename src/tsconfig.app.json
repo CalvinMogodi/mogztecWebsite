@@ -3,9 +3,11 @@
   "compilerOptions": {
     "outDir": "../out-tsc/app",
     "baseUrl": "./",
+    "allowJs": true,
     "module": "es2015",
     "types": []
   },
+  "include": ["node_modules/angular-bootstrap-md/**/*.ts",  "src/**/*.ts"],
   "exclude": [
     "test.ts",
     "**/*.spec.ts"

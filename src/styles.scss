@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+
+.darkblue{
+    color: #020A3D!important;
+}
+.titleHeader{
+    font-size: 110%
+}
+
+@media (min-width: 992px){
+.titleHeader{
+    font-size: 110%;
+    margin-left: 20%
+}
+}

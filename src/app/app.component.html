@@ -1,20 +1,261 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{title}}!
-  </h1>
-  <img width="300" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<mdb-navbar SideClass="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar" [containerInside]="false">
+  <logo>
+    <img src="../assets/img/mogztec-logo.png" alt="" class="img-fluid z-depth-0 animated bounce">
+  </logo>
+  <links>
+    <ul class="navbar-nav mr-auto titleHeader">
+      <li class="nav-item active waves-light" mdbRippleRadius>
+        <a class="nav-link darkblue" href="#home">Home<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item waves-light" mdbRippleRadius>
+        <a class="nav-link darkblue" href="#ourTeam">Our Team</a>
+      </li>
+      <li class="nav-item waves-light" mdbRippleRadius>
+        <a class="nav-link darkblue" href="#contactUs">Contact Us</a>
+      </li>
+    </ul>
+    <ul class="navbar-nav nav-flex-icons">
+      <li class="nav-item waves-light darkblue" mdbRippleRadius>
+        <a class="nav-link darkblue"><i class="fa fa-facebook"></i></a>
+      </li>
+      <li class="nav-item waves-light" mdbRippleRadius>
+        <a class="nav-link darkblue"><i class="fa fa-twitter"></i></a>
+      </li>
+      <li class="nav-item waves-light" mdbRippleRadius>
+        <a class="nav-link darkblue"><i class="fa fa-instagram"></i></a>
+      </li>
+    </ul>
+  </links>
+</mdb-navbar>
+<!-- Main -->
+<main>
+  <div class="container" style="height:1300px;">
+    <!--Home-->
+    <section id="home" class="section feature-box pt-5">
 
+      <!--Section heading-->
+      <h1 class="section-heading pt-4">Mogztec</h1>
+      <!--Section description-->
+      <p class="section-description lead darkblue"><strong>Mogztec  </strong> is a leading, web and mobile applications development agency. We believe in providing forward
+        thinking creative solutions that yield exceptional results. With a solid approach to planning, realistic implementation
+        and value, we deliver customized, results-driven programs to achieve our clients’ specific marketing goals.</p>
+
+      <!--Grid row-->
+      <div class="row features-small pt-5">
+
+        <!--Grid column-->
+        <div class="col-lg-5 mb-r center-on-small-only">
+          <img src="https://mdbootstrap.com/img/Mockups/Transparent/Small/ipad-portfolio2.png" alt="" class="img-fluid z-depth-0 animated bounce">
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-7">
+
+          <!--Grid row-->
+          <div class="row pb-3">
+            <div class="col-2 col-md-1">
+              <i class="fa fa-connectdevelop blue-text"></i>
+            </div>
+            <div class="col-10">
+              <h5 class="feature-title darkblue">Software Development</h5>
+              <p class="grey-text">Your business is unique and so are your requirements. Our experienced team of developers can deliver agile
+                solutions ranging from system integration and customization to full-stack development.</p>
+            </div>
+          </div>
+          <!--Grid row-->
+
+          <!--Grid row-->
+          <div class="row pb-3">
+            <div class="col-2 col-md-1">
+              <i class="fa fa-keyboard-o blue-text"></i>
+            </div>
+            <div class="col-10">
+              <h5 class="feature-title darkblue">Technology</h5>
+              <p class="grey-text">Emerging technologies like the Internet of Things, Artificial Intelligence, Blockchain, Virtual Reality and
+                Big Data will disrupt your industry. We can help you leverage technology for a digital advantage.</p>
+            </div>
+          </div>
+          <!--Grid row-->
+
+        </div>
+        <!--Grid column-->
+
+      </div>
+      <!--Grid row-->
+
+    </section>
+    <!-- End Home-->
+
+    <!-- Our Team-->
+    <section class="section feature-box pt-5 center" id="ourTeam">
+
+      <!--Section heading-->
+      <h2 class="section-heading h1 pt-5 darkblue">Our amazing team</h2>
+      <!--Section description-->
+      <p class="section-description">Our team is experienced and passionate about creating a platform for colleagues to apply their skills and achieve mastery in their fields, add meaningful value to clients, and develop lasting relationships..</p>
+
+      <!--Grid row-->
+      <div class="row pt-5">
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-12 mb-r">
+
+          <div class="avatar">
+            <img src="../assets/img/calvin.jpg" class="rounded-circle z-depth-1" alt="Calvin Mogodi">
+
+          </div>
+          <h4>Calvin Mogodi</h4>
+          <h6 class="font-bold blue-text">Co-Founder/ Developer</h6>
+          <p>Calvin has experience in the Software Development, having started his career at Britehouse. There, he obtained extensive experience – developing complex systems in Retail and Corporate Banking locally and in Africa.<br><br>
+          Calvin identified an opportunity for a consulting company to drive change, by infusing design thinking into every level of the organisation and helping clients ‘put ideas to work’. From this, Mogztec was born.</p>
+
+          <!--Facebook-->
+          <a class="icons-sm fb-ic"><i class="fa fa-facebook"> </i></a>
+          <!--Twitter-->
+          <a class="icons-sm tw-ic"><i class="fa fa-twitter"> </i></a>
+          <!--Instagram-->
+          <a class="icons-sm ins-ic"><i class="fa fa-instagram"> </i></a>
+
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-12 mb-r">
+
+          <div class="avatar">
+            <img src="../assets/img/themba.jpg" class="rounded-circle z-depth-1" alt="Second sample avatar image">
+          </div>
+          <h4>Themba Mbhele</h4>
+          <h6 class="font-bold blue-text">Developer</h6>
+          <p>In his ex in banking industry, Themba has remained on the cusp of new technologies – applying his expertise at the nexus of IT.<br><br>
+            Driven by a love for technology’s potential to elevate business results, improve customer experiences, and ultimately enrich lives, he takes a unique approach to all client engagements..</p>
+          <!--Linkedin-->
+          <a class="icons-sm li-ic"><i class="fa fa-linkedin"> </i></a>
+          <!--Facebook-->
+          <a class="icons-sm fb-ic"><i class="fa fa-facebook"> </i></a>
+          <!--Dribbble-->
+          <a class="icons-sm dribbble-ic"><i class="fa fa-dribbble"> </i></a>
+
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-12 mb-r">
+
+          <div class="avatar">
+            <img src="../assets/img/cathrine.jpg" class="rounded-circle z-depth-1" alt="Third sample avatar image">
+          </div>
+          <h4>Cathrine Matema</h4>
+          <h6 class="font-bold blue-text">Marketing Director</h6>
+          <p>Cathrine’s fast-paced career has spanned project management, sales and customer relationship management.
+            She’s formed a uniquely human approach to technology, an enthusiasm for its power to enhance relationships, turn ideas into reality, and bring us greater fulfilment.<br><br>
+            Cathrine strives to preserve the entrepreneurial spirit that defines the organisation.</p>
+
+          <!--Facebook-->
+          <a class="icons-sm fb-ic"><i class="fa fa-facebook"> </i></a>
+          <!--Pinterest-->
+          <a class="icons-sm tw-ic"><i class="fa fa-twitter"> </i></a>
+          <!--Email-->
+          <a class="icons-sm email-ic"><i class="fa fa-envelope-o"> </i></a>
+
+        </div>
+        <!--Grid column-->
+
+
+      </div>
+      <!--Grid row-->
+
+    </section>
+    <!-- End Our Team-->
+
+    <!-- Contact Us -->
+    <section id="contactUs" class="section feature-box pt-5 center">
+      <!--Section heading-->
+      <h2 class="section-heading h1 pt-4 darkblue">Contact Us</h2>
+      <div class="footer" id="footerDiv" style="padding-top: inherit;">
+        <div class="container">
+          <div class="services">
+            <div class="container">
+              <div class="w3_agile_footer_grids">
+               <!-- <h3 class="tittle_agile_w3">Send us a message</h3>
+                <br> <br>
+                <div class="heading-underline">
+                  <div class="h-u1"></div>
+                  <div class="h-u2"></div>
+                  <div class="h-u3"></div>
+                  <div class="clearfix"></div>
+                </div>
+                <div class="agileinfo_mail_grids">
+                  <form [formGroup]="contactUsForm" style=" text-align: center;">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <label class="control-label">Name</label><br>
+                        <input class="input-clare" formControlName="personName" type="text" />
+                        <div class="stats text-danger" [hidden]="!personNameRequired">
+                          <small>The field above is required</small>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <label class="control-label">Email</label><br>
+                        <input class="input-clare" formControlName="emailAddress" name="emailAddress" type="email" required/>
+                        <div class="stats text-danger" [hidden]="!cuemailAddressRequired">
+                          <small>The field above is required</small>
+                        </div>
+                        <div class="stats text-danger" [hidden]="!cuemailAddressInvaild">
+                          <small>invalid email address format</small>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <label class="control-label">Subject</label><br>
+                        <input class="input-clare" formControlName="subject" name="subject" type="text" required/>
+                        <div class="stats text-danger" [hidden]="!subjectRequired">
+                          <small>The field above is required</small>
+                        </div>
+                      </div>
+                    </div>
+                    <br> <br>
+                    <textarea style="color: lightgray;font-size: medium;" formControlName="message" name="message" placeholder="Your comment here..."
+                      required></textarea>
+                      <div class="stats text-danger" [hidden]="!messageRequired">
+                        <small>The field above is required</small>
+                      </div>
+                     <br> <br>
+                      <button type="button" class="btn btn-success" (click)="sendmail()">Send Message</button>
+
+                  </form>
+                </div>-->
+              </div>
+            </div>
+          </div>
+          
+          <div class="row pt-5">
+            <div class="col-md-4">
+              <i class="fa fa-map-marker fa-2x"></i>
+              <p>
+                Riverside View<br> North Fourways, South Africa
+              </p>
+            </div>
+            <div class="col-md-4">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+              <p>+27 76 255 1150</p>
+              <p>+27 73 376 9287</p>
+            </div>
+            <div class="col-md-4">
+              <i class="fa fa-envelope-o" aria-hidden="true"></i>
+              <p><a href="mailto:calvinmogodi@mogztec.co.za">calvinmogodi@mogztec.co.za</a></p>
+              <p><a href="mailto:cathrinematema@mogztec.co.za">cathrinematema@mogztec.co.za</a></p>
+            </div>
+          </div>
+
+          <div class="center pt-5">
+            <p>© 2018 Mogztec. All Rights Reserved</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- //Contact Us -->
+  </div>
+</main>
